@@ -16,13 +16,13 @@ export function countryCard({
 }) {
   return `
     <div class=" country">
-      <img class = "flag" src="${flags.svg}" alt="${
+    <img class = "flag" src="${flags.svg}" alt="${
     name.official
   }" width = 100/>
   <h2 class = "title">Country: ${name.official}</h2>
   <p class = "text">Capital: ${capital}</p>
-      <p class="text">Population: ${population}</p>
-      <p class="text">Languages: ${Object.values(languages)}</p>
+    <p class="text">Population: ${population}</p>
+    <p class="text">Languages: ${Object.values(languages)}</p>
     </div>
     `;
 }

@@ -30,7 +30,7 @@ function onSearch(e) {
 
       if (countries.length > 10) {
         Notify.info(
-          'Too many matches found. Please enter a more specific name.'
+        'Too many matches found. Please enter a more specific name.'
         );
        clearLine()
         return;
